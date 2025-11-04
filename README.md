@@ -1,5 +1,3 @@
-# AES-Algorithm-
-The Advanced Encryption Standard (AES) is a symmetric key encryption algorithm used worldwide to secure data. It encrypts and decrypts data in fixed 128-bit blocks using keys of 128, 192, or 256 bits, providing strong confidential protection. AES works through multiple rounds of substitutions, permutations, and mixing of plaintext bytes.
 # 0xCipherLink
 
 ## Secure File Transfer Tool
@@ -68,3 +66,46 @@ To run 0xCipherLink, you need to have the following installed:
 
 ### Example Usage
 
+#### Sending a File:
+
+1. Start the **0xCipherLink** tool.
+2. Select "Send".
+3. Enter the recipient's host (e.g., `192.168.1.4`).
+4. Enter the port (e.g., `12345`).
+5. Choose the file you want to send.
+6. Enter a secure password (e.g., `mypassword`).
+7. Click "Execute".
+
+#### Receiving a File:
+
+1. Start the **0xCipherLink** tool.
+2. Select "Receive".
+3. Enter the port (e.g., `12345`).
+4. Enter the same password used by the sender (e.g., `mypassword`).
+5. Click "Execute".
+
+### Security
+
+**0xCipherLink** employs several security mechanisms to ensure your files are safe:
+
+- **AES-256 Encryption**: Strong encryption standard to protect your files.
+- **PBKDF2 with HMAC-SHA256**: Robust key derivation function to secure your password.
+- **IV (Initialization Vector)**: Random IV for each encryption session to ensure uniqueness.
+
+### Screenshot
+
+![Alt text](/screenshot/screenshot.jpg)
+
+### Disclaimer
+
+While **0xCipherLink** provides strong encryption, it is essential to use a strong, unique password and ensure that the password is shared securely between sender and receiver. The security of the file transfer relies on the secrecy and complexity of the password used.
+
+### Contact
+
+For any issues, suggestions, or contributions, feel free to reach out or create an issue in the GitHub repository.
+
+---
+
+Thank you for using **0xCipherLink**. Secure your file transfers with confidence!
+
+- **contact@0x4m4.com**
